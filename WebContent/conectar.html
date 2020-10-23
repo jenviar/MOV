@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Conectar</title>
+<LINK REL=StyleSheet HREF="estilo_web.css" TYPE="text/css" MEDIA=screen>
+</head>
+<body>
+<form name="conectar" action="conectar.jsp" method="get">
+
+
+		<label for="fechahora">Disponibilidad: </label>
+		<input id="fechahora" name="disponibilidad" type="datetime-local"><br><br>
+	
+		
+		Estilo:<input type="text" name="estilo"><br><br>
+		
+		
+		Localización:<input type="text" name="localizacion"><br><br>
+		<input type="submit" name="grabar" value="Buscar">
+
+		<input type="hidden" name="operacion" value="Consultar">
+		<ul><li><a class="boton" href="index.html">Inicio</a></li></ul>
+	</form>
+</body>
+</html>

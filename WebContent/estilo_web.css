@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+.boton {
+	border: 1px solid #ffffff; 
+	padding: 10px; 
+	aligment: center;
+	background-color: #8b3c32; 
+	color: #ffffff; 
+	text-decoration: none; 
+	text-transform: uppercase; 
+	font-family: 'Helvetica', sans-serif; 
+	border-radius: 40px;
+	height:20px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+form {
+	padding: 30px; 
+	aligment: center; 
+	color: #8b3c32; 
+	text-decoration: none; 
+	text-transform: uppercase; 
+	font-family: 'Helvetica', sans-serif; 
+ 	height:20px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+.usuarios, .registro{
+	font-size: 24px;
+	padding: 30px; 
+	aligment: center; 
+	color: #8b3c32; 
+	text-decoration: none; 
+	text-transform: uppercase; 
+	font-family: 'Helvetica', sans-serif; 
+	height:20px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:40%;
+}
+table {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 30px;  
+	color: #8b3c32; 
+	text-decoration: none;
+	padding: 40px;
+	text-transform: uppercase; 
+	font-family: 'Helvetica', sans-serif; 
+	border-collapse: collapse;
+	position:relative;
+ 	top:50%; 
+ 	left:30%;   
+
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+li {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	list-style:none;	
+	aligment: center;
+}
+img{
+	
+    margin: -30px -50px; 
+    position:relative;
+    top:50%; 
+    left:52%;
+}
+html{
+	background-color: #dbbea8;
+}

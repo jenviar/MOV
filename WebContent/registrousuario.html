@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registro de usuario</title>
+<LINK REL=StyleSheet HREF="estilo_web.css" TYPE="text/css" MEDIA=screen>
+</head>
+<body>
+
+<form name="usuario" action="registrousuario.jsp" method="get">
+		Nombre:<input type="text" name="Nombre_usuario"><br><br>
+		Edad:<input type="text" name="Edad"><br><br>
+		Estilo:<input type="text" name="Estilo"><br><br>
+		Localizacion:<input type="text" name="Localizacion"><br><br>
+		<label for="fechahora">Disponibilidad: </label>
+		<input id="fechahora" name="fechahora" type="datetime-local">
+		<br><br>
+		Contacto:<input type="text" name="Contacto"><br><br>
+		<input type="submit" name="grabar" value="Registrarse">
+		<input type="hidden" name="p_operacion" value="Insertar">
+		<ul><li><a class="boton" href="index.html">Inicio</a></li></ul>
+	</form>
+
+</body>
+</html>
