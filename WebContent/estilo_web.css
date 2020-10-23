@@ -1,22 +1,6 @@
 @charset "UTF-8";
 
-.boton {
-	border: 1px solid #ffffff; 
-	padding: 10px; 
-	aligment: center;
-	background-color: #8b3c32; 
-	color: #ffffff; 
-	text-decoration: none; 
-	text-transform: uppercase; 
-	font-family: 'Helvetica', sans-serif; 
-	border-radius: 40px;
-	height:20px; 
-    width:100px; 
-    margin: -20px -50px; 
-    position:relative;
-    top:50%; 
-    left:50%;
-}
+
 form {
 	padding: 30px; 
 	aligment: center; 
